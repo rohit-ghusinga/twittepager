@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333333;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 50%;
+    margin: auto;
+
+}
+
+.box {
+    background-color: #000;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+.X {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    left: 43%;
+    padding-bottom: 25px;
+
+}
+
+.sign-in-X {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.google-sign-in,
+.apple-sign-in {
+
+    background-color: #fff;
+    color: #000;
+    display: block;
+    height: 45px;
+    width: 100%;
+    border: none;
+    margin: 10px auto;
+    padding: auto;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+.logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.line-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #ccc;
+    margin: 0 10px;
+}
+
+.or {
+    color: #888;
+}
+
+.input-box {
+    text-align: center;
+    
+}
+
+.input-field {
+    margin-bottom: auto;
+    display: block;
+    text-align: start;
+    margin: auto;
+    width: 80%;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    background-color: #000;
+    color: #fff;
+}
+.next-button{display: block;
+    margin: 0px auto;
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    color: black;
+    font-size: 25;
+    font-weight: 10;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.forgot-password {
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-size: 25;
+    font-weight: 10;
+    border: 1px solid whitesmoke;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+
+.sign-up-link {
+    text-align: center;
+    margin-top: 20px;
+    color: grey;
+}
+
+.sign-up {
+    color: #0d8aed;
+    cursor: pointer;
+}
+
+.sign-up:hover {
+    color: #1da1f2;
+    cursor: pointer;
+}
